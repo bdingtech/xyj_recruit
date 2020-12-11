@@ -1,6 +1,7 @@
 #part4
   width: 100vw;
-  height: 78rem;
+  // height: 78rem;
+  margin-top: 30px;
   background-image: url("../../assets/bg4.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -10,7 +11,7 @@
   justify-content: center;
   padding-top: 3rem;
   @media screen and (max-width: 920px)
-    height: 86rem;
+    // height: 86rem;
     padding-top: 1rem;
   .mascot
     margin-top: -10rem;
@@ -143,19 +144,48 @@
       width: 90%;
       margin-top: 1rem;
       margin-bottom: 1rem;
+  .hr__slogan
+    img
+      width: 100%;
   .goal-open-source
-    background-image: -webkit-linear-gradient(0deg, #8bd21e, #d8d23e); 
+    // background-image: -webkit-linear-gradient(0deg, #8bd21e, #d8d23e); 
+    background-color: #FFFAF0;
     width: 83vw;
-    height: 22rem;
+    margin-bottom: 20px;
+    // height: 22rem;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    // align-items: center;
+    // justify-content: space-between;
+      // height: 200px;
+
     @media screen and (max-width: 920px)
-      width: 90vw;
-      height: 25rem;
+      width: 100vw;
+      // height: 25rem;
       flex-direction: column;
       align-items: flex-start;
-      justify-content: center;
+    .hr__slogan
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 30px;
+      color: #772A10
+    .hr__contaner
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      color: #772A10;
+      span
+        display: block;
+        line-height: 26px;
+      .hr__name
+        font-size: 20px;
+        font-weight: bold;
+      .hr__dec
+        margin-top: 20px
+        .dec_sub
+          margin-top: 20px
+      // justify-content: center;
+
     .goal-open-source-git
       width: 29rem;
       height: 18rem;

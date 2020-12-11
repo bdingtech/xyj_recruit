@@ -2,11 +2,11 @@ import React from 'react';
 import './Product.sass';
 
 import t2 from '../../assets/word/t2.png';
-import iphone1 from '../../assets/iphone/1.png';
-import iphone2 from '../../assets/iphone/2.png';
-import iphone3 from '../../assets/iphone/3.png';
-import iphone4 from '../../assets/iphone/4.png';
-import iphone5 from '../../assets/iphone/5.png';
+import iphone1 from '../../assets/iphone/index.jpg';
+import iphone2 from '../../assets/iphone/box.jpg';
+import iphone3 from '../../assets/iphone/kb2.jpg';
+import iphone4 from '../../assets/iphone/me.jpg';
+import iphone5 from '../../assets/iphone/kb1.jpg';
 
 export default function Product({
   distanceObj: { afterScrollTop, clientWidth }
@@ -31,7 +31,7 @@ export default function Product({
       </div>
       <div className="product-desc">
         <div className="product-desc-item">
-          南邮小程序、校谈、期末报告单、社团招新系统、你头像真棒等等，
+          科大校园菌小程序、校园广场、一周CP、社团招新系统、话费充值等等，
         </div>
         <div className="product-desc-item">
           我们既是这些产品的开发者，也是他们最忠实的用户，更是最能挑刺的人。
@@ -40,7 +40,7 @@ export default function Product({
           做自己会用的产品，做自己也喜欢用的产品，
         </div>
         <div className="product-desc-item">用心，做让自己心满意足的事。</div>
-        <div className="product-desc-more">了解我们的更多产品 ></div>
+        {/* <div className="product-desc-more">了解我们的更多产品 ></div> */}
         <div className="product-show">
           <img
             className="product-show-item"

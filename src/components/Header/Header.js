@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.sass';
-import QyLogo from '../../assets/qylogo.png';
+import QyLogo from '../../assets/xyj.png';
 
 export default function Header({
   distanceObj: { afterScrollTop, clientWidth }
@@ -22,33 +22,34 @@ export default function Header({
       <div className="part1-container">
         <div className="head-bar">
           <img src={QyLogo} alt="" className="qylogo" />
-          <div className="nav-list">
+          {/* <div className="nav-list">
             <div className="nav-item first">首页</div>
             <div className="nav-item second">了解我们</div>
             <div className="nav-item second">加入我们</div>
             <div className="nav-item third">合作沟通</div>
             <div className="nav-item third">开发者</div>
-          </div>
-          <button>用户服务</button>
+          </div> */}
         </div>
         <div className="head-content-container">
           <div className="content-title" />
           <div className="content-container">
             <p className="head-content">
-              2017年春天，南邮小程序上显示出第一句"Hello, world"，
+              2019年秋天，科大校园菌网页版上显示出第一句"Hello, world"，
             </p>
             <p className="head-content">
-              今天，我们有超过7万用户，超过1.3万日活，
+              今天，我们已经进化成小程序
+              <br />
+              有超过4万用户，超过1.3万日活，
               <br />
               超过10万日访问量，超过2000万次接口调用。
             </p>
             <p className="head-content">
-              我们和肖辰旭一起成长，一起进步，一起变得强大，
+              我们和小恐龙一起成长，一起进步，一起变得强大，
             </p>
             <p className="head-content">却从未忘却初心。</p>
             <p className="head-content last">两年，继续前进！</p>
           </div>
-          <div className="more">了解我们的更多 > </div>
+          {/* <div className="more">了解我们的更多 > </div> */}
         </div>
         <div
           className="top-bg"

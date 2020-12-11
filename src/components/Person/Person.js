@@ -93,28 +93,30 @@ export default function Person({
           </div>
           <div className="content">
             <p>
-              从一开始的几人团队到现在五十多人的工作室，青柚工作室吸引并欢迎越来越多志同道合的朋友们加入。
+              从一开始的几人团队到现在二十多人的工作室，科大校园菌工作室吸引并欢迎越来越多志同道合的朋友们加入。
             </p>
             <p>
-              在这个团队里，大家讨论、交流、学习、进步、共事...写你感兴趣的项目，为期末报告单设计UI，策划你喜欢的用户交流活动，平时再水水群、聊聊天，如果恰好赶上了秋招还能蹭上学长学姐们一顿又一顿的offer饭。
+              在这里，你可以和大家讨论、交流、学习、进步、共事、策划你喜欢的用户交流活动... 还可以写你感兴趣的项目，让你的代码运行在几万科大人的手机运行。
+              <br/>
+              在这里，你不仅可以站在一线用户，开发维护科大各种不可思议的用户端产品，还可以为行业赋能，以技术力量创造更美好的生活体验!
             </p>
             <p>成长和进步是一局团战，要和得力的队友一起打！</p>
           </div>
           <div className="people-num">
             <div className="num-item">
               <div className="num">
-                <img src={n1} alt="" />
+                <img src={n2} alt="" />
               </div>
               <div className="tag">工作室成员数</div>
             </div>
             <div className="num-item">
-              <div className="num">
+              {/* <div className="num">
                 <img src={n2} alt="" />
               </div>
-              <div className="tag">毕业成员数</div>
+              <div className="tag">毕业成员数</div> */}
             </div>
           </div>
-          <button className="join">加入青柚</button>
+          {/* <button className="join">加入青柚</button> */}
         </div>
         <div className="right-container">
           <div className="photo-wall">
@@ -132,9 +134,9 @@ export default function Person({
               );
             })}
           </div>
-          <div className="random" onClick={handleClick}>
+          {/* <div className="random" onClick={handleClick}>
             随机换一拨
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
